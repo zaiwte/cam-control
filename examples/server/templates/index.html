@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <title>streaming opencv</title>
+    <script src="https://unpkg.com/htmx.org@1.7.0"></script>
+    <style>
+        .cuerpo{
+            text-align: center;
+            background-color: #C6E9EE;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body class = "cuerpo" id="cuerpo">
+
+    <h1 style="font-size:70px">ESP32-CAM</h1>
+
+    <div class="caja1">
+
+    <img src="{{url_for('video_stream')}}">
+
+    </div>
+
+</body>
+
+</html>
